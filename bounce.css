@@ -1,0 +1,49 @@
+#TEXT{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    padding-top: 10%;
+    color:rgb(11, 157, 214);    
+    text-shadow: 2PX 4PX blue;
+    position: relative;
+    padding-left: 35%;
+    display: flex;
+
+}
+.b{
+   position:relative;
+  animation-name:box;
+   animation-duration: 0.2s;
+   
+   
+}
+.o{
+    position: relative;
+    animation-name:box;
+   animation-duration: 0.3s;
+}   
+.u{
+    position: relative;
+    animation-name:box;
+   animation-duration: 0.4s;
+}
+.n{
+    position: relative;
+    animation-name:box;
+   animation-duration: 0.5s;
+}
+.c{
+    position: relative;
+    animation-name:box;
+   animation-duration: 0.6s;
+}
+.e{
+    position: relative;
+    animation-name:box;
+   animation-duration: 0.7s;
+}
+@keyframes box{
+    0%{bottom: 0px;}
+    50%{bottom: 50px;}
+    100%{bottom: 0px;}
+}
